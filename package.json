@@ -10,8 +10,14 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "dayjs": "^1.11.13",
     "element-plus": "^2.8.7",
-    "vue": "^3.5.12"
+    "nanoid": "^5.1.5",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.2",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
