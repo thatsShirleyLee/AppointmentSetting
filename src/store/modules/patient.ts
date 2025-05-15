@@ -14,7 +14,7 @@ export const usePatientStore = defineStore(
         // 映射每个日期的所有时间点（含是否已被预约）
         const dateWithTimeBlocks = ref<DateWithTimeBlocks>({})
 
-    // 生成所有可用的预约日期和时间块
+    // 工具函数：生成所有可用的预约日期和时间块
     const generateAvailableDates = () => {
       const providerStore = useProviderStore();
       const start = dayjs(providerStore.startDate);
